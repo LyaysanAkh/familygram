@@ -52,6 +52,7 @@ body {
 .post-stats {
     display: flex;
     justify-content: space-between;
+    margin-top: 3px;
   }
 
 .heart {
@@ -82,11 +83,13 @@ body {
 }
 
 .footer {
-    margin-left: 50px;
     font-size: 14px;
+    background-color: rgb(216, 215, 215);
+    width: 100%;
+    height: 50px;
 }
-  
 
-
-  
-  
+.footer p {
+    margin-left: 50px;
+    padding-top: 15px;
+}
