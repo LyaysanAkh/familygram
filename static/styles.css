@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Quite Magical';
+    src: url(fonts/quite-magical-font/QuiteMagicalRegular-8VA2.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Quite Magical';
+}
+
+.familygram {
+    margin-left: 10px;
+    font-size: 60px;
+    text-align: center;
+    color: #1560bd;
+    font-weight: normal;
+}
+
+.logo {
+    width: 40px;
+}
+
+.main {
+    margin: 50px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.post-img {
+    width: 300px;
+    height: 400px;
+}
+
+.post-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.heart {
+    min-width: 60px;
+    min-height: 34px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("images/heart.png");
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+.heart:focus,
+.heart:hover {
+    opacity: 1;
+}
+  
+.heart .likes-number {
+    margin-left: 20px;
+}
+  
+.heart.added {
+    background-image: url("images/heart-added.png");
+}
+
+.footer {
+    margin-left: 50px;
+    font-size: 14px;
+}
+  
+
+
+  
+  
