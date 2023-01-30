@@ -18,6 +18,35 @@ body {
     font-family: 'Quite Magical';
 }
 
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 50px;
+    color: #1560bd;
+}
+
+.january {
+    margin-left: 10px;
+}
+
+.data a {
+    color:#1560bd;
+    text-decoration: none;
+}
+
+.data a:hover {
+    color: purple;
+}
+
+.data a:focus {
+    text-decoration: underline;
+}
+
+.data a:visited {
+    color:rgb(6, 181, 250)
+}
+
 .familygram {
     margin-left: 10px;
     font-size: 60px;
