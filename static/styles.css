@@ -109,7 +109,59 @@ body {
   
 .heart.added {
     background-image: url("images/heart-added.png");
-    opacity: 1;
+}
+
+.user-comment:first-child {
+    display: none;
+}
+
+.comment-form {
+  display: flex;
+  background-color: #f8f8ff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.comment-list li {
+    list-style-type: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 300px;
+    margin-left: -40px;
+}
+  
+.comment-inner {
+    width: 100%;
+    height: 35px;
+}
+
+.button {
+    height: 25px;
+    margin: 5px;
+}
+
+.comment-field {
+    width: 195px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-right: 0;
+    border: 1px solid #eae9f2;
+    color: #333333;
+}
+
+.comment-field:focus {
+    outline-color: #b6aaff;
+}
+
+.user-comment::before {
+    border-right-color: #eae9f2;
+    color: #cdcdcd;
+  }
+
+.user-comment::after {
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
 }
 
 .footer {
