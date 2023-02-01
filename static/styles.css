@@ -109,6 +109,7 @@ body {
   
 .heart.added {
     background-image: url("images/heart-added.png");
+    opacity: 1;
 }
 
 .user-comment:first-child {
