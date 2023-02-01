@@ -112,6 +112,10 @@ body {
     opacity: 1;
 }
 
+.comment-feed {
+    margin-top: -20px;
+}
+
 .comment-feed h3 {
     font-size: 18px;
 }
