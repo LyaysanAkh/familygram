@@ -112,6 +112,10 @@ body {
     opacity: 1;
 }
 
+.comment-feed h3 {
+    font-size: 18px;
+}
+
 .user-comment:first-child {
     display: none;
 }
