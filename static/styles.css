@@ -126,9 +126,9 @@ body {
 }
 
 .comment-form {
-  display: flex;
-  background-color: #f8f8ff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background-color: #f8f8ff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .comment-list li {
@@ -140,8 +140,12 @@ body {
     width: 300px;
     margin-left: -40px;
     padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-  
+
 .comment-inner {
     width: 100%;
     height: 35px;
@@ -171,6 +175,7 @@ body {
   }
 
 .user-comment::after {
+    
     border-right-color: #ffffff;
     border-bottom-color: #ffffff;
 }
@@ -193,4 +198,25 @@ body {
 
 .socialmedia {
     margin-right: 40px;
+}
+
+.up-button {
+    position: fixed;
+    z-index: 1;
+    padding: 0;
+    bottom: 75px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+
+.shown {
+    display: inline-block;
 }
