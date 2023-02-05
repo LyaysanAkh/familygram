@@ -217,6 +217,6 @@ body {
     cursor: pointer;
 }
 
-.shown {
+.shown {    
     display: inline-block;
 }
