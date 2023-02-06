@@ -119,7 +119,7 @@ body {
 }
 
 .comment-feed h3 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .user-comment:first-child {
@@ -127,7 +127,6 @@ body {
 }
 
 .comment-form {
-    display: flex;
     background-color: #f8f8ff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -161,16 +160,28 @@ body {
 
 .comment-inner {
     width: 100%;
-    height: 35px;
+    height: 60px;
+}
+
+.text-counter {
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 .button {
     height: 25px;
     margin: 5px;
+    margin-top: -2px;
+    margin-right: 7px;
+}
+
+.char-counter.warning {
+    color: red;
 }
 
 .comment-field {
-    width: 195px;
+    width: 282px;
+    height: 40px;
     margin: 5px;
     margin-top: 10px;
     margin-right: 0;
@@ -191,6 +202,12 @@ body {
     
     border-right-color: #ffffff;
     border-bottom-color: #ffffff;
+}
+
+.under-commentfield {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer {
