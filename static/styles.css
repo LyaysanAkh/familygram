@@ -73,6 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 300px;
+    min-height: 625px;
 }
 
 .post-img {
