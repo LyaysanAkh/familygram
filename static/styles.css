@@ -72,8 +72,8 @@ body {
 .post {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 300px;
-    min-height: 625px;
 }
 
 .post-img {
