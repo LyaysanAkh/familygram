@@ -31,6 +31,10 @@ body {
     margin-left: 10px;
 }
 
+.february {
+    margin-left: 8px;
+}
+
 .data a {
     color:#1560bd;
     text-decoration: none;
@@ -88,8 +92,8 @@ body {
   }
 
 .heart {
-    min-width: 60px;
-    min-height: 34px;
+    min-width: 24px;
+    min-height: 24px;
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
@@ -97,6 +101,7 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url("images/heart.png");
+    background-size: 24px 24px;
     opacity: 0.5;
     cursor: pointer;
   }
@@ -167,6 +172,7 @@ body {
 .text-counter {
     font-size: 12px;
     margin-left: 5px;
+    opacity: 0.6;
 }
 
 .button {
@@ -239,7 +245,8 @@ body {
     right: 20px;
     width: 50px;
     height: 50px;
-    font-size: 36px;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
     vertical-align: middle;
     border: 2px solid;
