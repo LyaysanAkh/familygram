@@ -11,3 +11,7 @@ window.onscroll = function() {
 upButton.onclick = function() {
     window.scrollTo(0, 0);
 }
+
+header.onclick = function() {
+    window.location.reload();
+}
