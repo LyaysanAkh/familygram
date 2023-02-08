@@ -1,4 +1,5 @@
 let upButton = document.querySelector('.up-button');
+let header = document.querySelector('.header');
 
 window.onscroll = function() {
     if (window.pageYOffset > 1000) {
