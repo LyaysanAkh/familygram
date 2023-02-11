@@ -9,6 +9,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.begin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    height: 230px;
+}
+
 .header {
     margin-left: 30px;
     margin-bottom: -20px;
@@ -20,12 +28,18 @@ body {
     cursor: pointer;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
 .data {
     display: flex;
     flex-direction: row;
     justify-content: start;
     margin-left: 40px;
     color: #1560bd;
+    justify-self: self-end;
 }
 
 .january {
@@ -53,6 +67,71 @@ body {
     color:rgb(6, 181, 250)
 }
 
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-form {
+    align-self: self-end;
+    justify-self: end;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 205px;
+    height: 120px;
+    background-color: #f8f8ff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.email {
+    width: 200px;
+    height: 24px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.password {
+    width: 200px;
+    height: 24px;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox {
+    margin-top: -5px;
+    align-self: self-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.password-form p {
+    font-size: 12px;
+}
+
+.login-btn {
+    width: 200px;
+    height: 24px;
+    margin-left: 2px;
+}
+
+.login-img {
+    width: 36px;
+    height: 36px;
+    align-self: self-end;
+    justify-self: self-end;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .familygram {
     margin-left: 10px;
     font-size: 60px;
@@ -62,16 +141,17 @@ body {
 }
 
 .logo {
-    width: 40px;
+    width: 50px;
 }
 
 .main {
-    margin: 40px;
     margin-left: 30px;
     margin-top: 0;
+    margin-right: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .post {
@@ -232,6 +312,7 @@ body {
 .footer p {
     margin-left: 40px;
     padding-top: 15px;
+    margin-bottom: 30px;
 }
 
 .socialmedia {
