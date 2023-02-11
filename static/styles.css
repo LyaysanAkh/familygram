@@ -14,7 +14,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0;
-    height: 230px;
+    height: 240px;
 }
 
 .header {
@@ -82,8 +82,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    width: 205px;
-    height: 120px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    width: 210px;
+    height: 140px;
     background-color: #f8f8ff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     display: none;
@@ -97,6 +100,10 @@ body {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
+.email:active {
+    border-color: #cdcdcd;
+}
+
 .password {
     width: 200px;
     height: 24px;
@@ -105,7 +112,6 @@ body {
 }
 
 .checkbox {
-    margin-top: -5px;
     align-self: self-start;
     display: flex;
     flex-direction: row;
@@ -119,12 +125,12 @@ body {
 .login-btn {
     width: 200px;
     height: 24px;
-    margin-left: 2px;
+    justify-self: self-end;
 }
 
 .login-img {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     align-self: self-end;
     justify-self: self-end;
     margin-right: 50px;
