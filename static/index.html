@@ -7,17 +7,33 @@
         <link rel="icon" type="image" href="images/фавикон.png"> 
     </head>
     <body>
-        <header class="header">
-          <img class="logo" src="images/logo.png" alt="логотип">
-          <h1 class="familygram">Familygram</h1>
-        </header>
-        <div class="data">  
-          <h3 class="2023">2023: </h3>
-          <a href="#january" class="datalink"><h3 class="january">Январь</h3></a>
-          <a href="#february" class="datalink"><h3 class="february">Февраль</h3></a>
-        </div>
+      <div class="begin">
+        <section class="info">
+          <header class="header">
+            <img class="logo" src="images/logo.png" alt="логотип">
+            <h1 class="familygram">Familygram</h1>
+          </header>
+          <div class="data">  
+            <h3 class="2023">2023: </h3>
+            <a href="#january" class="datalink"><h3 class="january">Январь</h3></a>
+            <a href="#february" class="datalink"><h3 class="february">Февраль</h3></a>
+          </div>
+        </section>
+        <section class="login">
+          <input type="image" src="images/login.png" alt="Вход на сайт по логину и паролю" class="login-img">
+          <form method="post" class="password-form">
+            <input type="email" value="" placeholder="Пользователь" class="email">
+            <input type="password" value="" placeholder="Пароль" class="password">
+            <div class="checkbox">
+              <input type="checkbox" class="check">
+              <p>Показать пароль</p>
+            </div>
+            <button class="login-btn">Войти</button>
+          </form>
+        </section>
+      </div>
         <main class="main">
-          <div class="post">
+          <div class="post" data-category="Salih">
             <section class="info">
             <img src="images/Зиля и Салих на фоне Айя-Софии.jpg" alt="Зиля и Салих на фоне Айя-Софии" class="post-img">
               <div class="post-stats">
@@ -44,7 +60,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Salih">
             <section class="info">
             <img src="images/Альберт и Салих в Галатской башне.jpg" alt="Альберт и Салих в Галатской башне" class="post-img">
               <div class="post-stats">
@@ -71,7 +87,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Yasmina">
             <section class="info">
             <img src="images/Ясмина футболист.jpg" alt="Ясмина похожа на футболистку" class="post-img">
               <div class="post-stats">
@@ -98,7 +114,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Safiya">
             <section class="info">
             <img src="images/Сафиюшка читает каталог.jpg" alt="Сафиюшка изучает каталог" class="post-img">
               <div class="post-stats">
@@ -125,7 +141,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Salih">
             <section class="info">
             <img src="images/Салих полон сил и готов покорять Стамбул.jpg" alt="Салих уснул" class="post-img">
               <div class="post-stats">
@@ -152,7 +168,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Salih">
             <section class="info">
             <img src="images/Салих летит в Стамбул!.jpg" alt="Салих летит в Стамбул" class="post-img">
               <div class="post-stats">
@@ -179,7 +195,7 @@
                   </form>
               </section>
           </div>
-          <div class="post">
+          <div class="post" data-category="Khakim">
             <section class="info">
             <img src="images/Хаким рисует самолет.jpg" alt="Хаким нарисовал самолет" class="post-img" id="february">
               <div class="post-stats">
@@ -206,7 +222,7 @@
                   </form>
               </section>
           </div>
-            <div class="post">
+            <div class="post" data-category="safiya">
               <section class="info">
               <img src="images/пингвинчики.jpg" alt="Хаким и Сафия сделали в садике пингвинчиков из пластилина" class="post-img">
                 <div class="post-stats">
@@ -233,7 +249,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Salih">
               <section class="info">
                 <img src="images/музей метро.jpg" alt="Зиля и Салих в музее метро" class="post-img">
                 <div class="post-stats">
@@ -260,7 +276,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Salih">
                 <section class="info">
                 <img src="images/Салих пират.jpg" alt="Салих пират" class="post-img">
                 <div class="post-stats">
@@ -287,7 +303,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Yasmina">
               <section class="info">
                 <img src="images/просто Ясминушка.jpg" alt="Просто Ясминушка в любимом костюмчике после прогулки" class="post-img">
                 <div class="post-stats">
@@ -314,7 +330,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Salih">
               <section class="info">
                 <img src="images/Салих на фитнесе.jpg" alt="Салих занимается фитнесом" class="post-img">
                 <div class="post-stats">
@@ -341,7 +357,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Safiya" data-category="Khakim" data-category="Yasmina">
               <section class="info">
                 <img src="images/читальный клуб.jpg" alt="Хаким, Сафия и Ясмина читают книжки" class="post-img">
                 <div class="post-stats">
@@ -368,7 +384,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Salih" data-category="Safiya" data-category="Khakim">
               <section class="info">
                 <img src="images/на футболе.jpg" alt="Салих, Сафия и Хаким смотрят футбол" class="post-img">
                 <div class="post-stats">
@@ -395,7 +411,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Salih">
               <section class="info">
                 <img src="images/катание на горных лыжах.jpg" alt="Салих показывает на пальцах как правильно кататься на горных лыжах" class="post-img">
                 <div class="post-stats">
@@ -422,7 +438,7 @@
                     </form>
                 </section>
             </div>
-            <div class="post">
+            <div class="post" data-category="Safiya" data-category="Khakim" data-category="Yasmina">
               <section class="info">
                 <img src="images/в гостях в деревне Старые Ерыклы.jpg" alt="в гостях в деревне Старые Ерыклы" id="january" class="post-img">
                 <div class="post-stats">
@@ -464,5 +480,6 @@
         <script src="likes.js"></script>
         <script src="comments.js"></script>
         <script src="up-button.js"></script>
+        <script src="login.js"></script>
     </body>
 </html>
