@@ -78,6 +78,10 @@ body {
     margin-left: 8px;
 }
 
+.mart {
+    margin-left: 8px;
+}
+
 .login {
     display: flex;
     flex-direction: column;
